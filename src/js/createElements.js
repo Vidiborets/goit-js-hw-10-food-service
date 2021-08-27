@@ -3,5 +3,5 @@ import createElement from '../tamplate/tamplate.hbs'
 
 const importGallary = document.querySelector('.js-menu')
 
-const item = createElement(elementFood)
-importGallary.insertAdjacentHTML('beforeend', item)
+const item = createElement(elementFood);
+importGallary.insertAdjacentHTML('beforeend', item);

@@ -1,5 +1,5 @@
 import elementFood from '../js/menu.json';
-import createElement from '../tamplate/tamplate.hbs'
+import createElement from '../tamplate/tamplate.hbs';
 
 const importGallary = document.querySelector('.js-menu')
 

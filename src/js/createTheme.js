@@ -12,14 +12,14 @@ savedTheme();
 
 function changeTheme(e) {
     e.currentTarget.checked ? changeThemeDark() : changeThemeLight();
-}
+};
 
 function changeThemeDark() {
     body.classList.add(Theme.DARK)
     body.classList.remove(Theme.LIGHT)
     localStorage.setItem('toggle', Theme.DARK)
     change.checked = true;
-}
+};
 
 function changeThemeLight() {
     body.classList.add(Theme.LIGHT);
